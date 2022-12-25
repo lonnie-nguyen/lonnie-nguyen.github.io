@@ -1,3 +1,7 @@
+/* Navbar */
+.navbarScroll.navbarDark {
+    background-color: #000;
+}
 /* Main header background image */
 .bgimage {
     height:100vh;
@@ -28,7 +32,7 @@
 #contact {
     padding-bottom: 4rem;
 }
-/* About image */
+/* About */
 .imageAboutPage {
     width: 100%;
     height: 100%;
