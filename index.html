@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Lonnie Nguyen">
+    <meta name="description" content="Portfolio">
+    <title>Lonnie's Portfolio</title>
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+          integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+            crossorigin="anonymous"></script>
+    <!-- linking CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
+        <div class="container">
+            <a class="navbar-brand" href="#">Lonnie</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-tem active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Main Header -->
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                <h2 class="hero_title">Hi, I'm Lonnie</h2>
+                <p class="hero_desc">I'm a software engineer in Southern California</p>
+            </div>
+            </div>
+        </div>
+    </section>
+    <!-- About -->
+    <section id="about">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">About</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="images/IMG_6131.PNG" class="imageAboutPage" alt="Memoji" style="width:400px;height:400px">
+                </div>
+                <div class="col-lg-8">
+                    <p>
+                        My favorite projects to work on allow me to be creative and technical. I believe that user
+                        interfaces should not only be beautiful, but user friendly and that the code should be clean and
+                        testable. I am skilled with wireframing/prototyping in Figma and programming the creations using
+                        the appropriate tech stacks.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Projects -->
+    <section class="bgimage1" id="projects">
+        <div class="container">
+            <h1 class="proj-text">Projects</h1>
+        </div>
+    </section>
+    <!-- Contact -->
+    <section id="contact">
+
+    </section>
+    <!-- Load JS after loading all HTML content -->
+    <script src="script.js"></script>
+</body>
+</html>
