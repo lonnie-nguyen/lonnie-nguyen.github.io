@@ -1,3 +1,12 @@
+/* Hide scrollbar */
+body {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: scroll;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
 /* Navbar */
 .navbarScroll.navbarDark {
     background-color: #000;
@@ -24,11 +33,11 @@
     transform: translate(-50%, -50%);
     color: #fff;
 }
-/* Spacing for sections */
-/*#about, #projects, #contact {*/
-/*    margin-top: 4rem;*/
-/*    padding-top: 4rem;*/
-/*}*/
+/* Spacing for sections to not cover section titles */
+#about, #projects, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
 #contact {
     padding-bottom: 4rem;
 }
