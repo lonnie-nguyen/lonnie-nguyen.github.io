@@ -62,7 +62,7 @@ body::-webkit-scrollbar {
     font-size: 50px;
     cursor: pointer;
 }
-.fa-linkedin:hover, .fa-github:hover {
+.fa-linkedin:hover, .fa-github:hover, .fa-envelope:hover {
     color: #008000;
 }
 .fab {
